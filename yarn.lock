@@ -273,6 +273,11 @@ builtin-modules@^3.1.0:
   resolved "https://registry.yarnpkg.com/builtin-modules/-/builtin-modules-3.1.0.tgz#aad97c15131eb76b65b50ef208e7584cd76a7484"
   integrity sha512-k0KL0aWZuBt2lrxrcASWDfwOLMnodeQjodT/1SxEQAXsHANgo6ZC/VEaSEHCXt7aSTZ4/4H5LKa+tBXmW7Vtvw==
 
+bulma@^0.8.2:
+  version "0.8.2"
+  resolved "https://registry.yarnpkg.com/bulma/-/bulma-0.8.2.tgz#5d928f16ed4a84549c2873f95c92c38c69c631a7"
+  integrity sha512-vMM/ijYSxX+Sm+nD7Lmc1UgWDy2JcL2nTKqwgEqXuOMU+IGALbXd5MLt/BcjBAPLIx36TtzhzBcSnOP974gcqA==
+
 camelcase-keys@^2.0.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/camelcase-keys/-/camelcase-keys-2.1.0.tgz#308beeaffdf28119051efa1d932213c91b8f92e7"
@@ -1074,7 +1079,7 @@ node-gyp@^3.8.0:
     tar "^2.0.0"
     which "1"
 
-node-sass@^4.13.1:
+node-sass@4, node-sass@^4.13.1:
   version "4.13.1"
   resolved "https://registry.yarnpkg.com/node-sass/-/node-sass-4.13.1.tgz#9db5689696bb2eec2c32b98bfea4c7a2e992d0a3"
   integrity sha512-TTWFx+ZhyDx1Biiez2nB0L3YrCZ/8oHagaDalbuBSlqXgUPsdkUSzJsVxeDO9LtPB49+Fh3WQl3slABo6AotNw==
@@ -1403,6 +1408,14 @@ rollup-plugin-livereload@^1.0.0:
   dependencies:
     livereload "^0.9.1"
 
+rollup-plugin-scss@^2.4.0:
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/rollup-plugin-scss/-/rollup-plugin-scss-2.4.0.tgz#5206566644dd34e41282b7f8401c9d75cc1207ce"
+  integrity sha512-Op30FQ8NmumMxLT7pOK6WeU86zRbEwUnRhwe0CTDzLdymFcUca7pmuaCe7rfYKB4p0TndlSd86CUMNguxkxOpw==
+  dependencies:
+    node-sass "4"
+    rollup-pluginutils "2"
+
 rollup-plugin-svelte@^5.0.3:
   version "5.2.1"
   resolved "https://registry.yarnpkg.com/rollup-plugin-svelte/-/rollup-plugin-svelte-5.2.1.tgz#f9d362d1b1d8cef0fa3782f2270f9261b715644c"
@@ -1423,7 +1436,7 @@ rollup-plugin-terser@^5.1.2:
     serialize-javascript "^2.1.2"
     terser "^4.6.2"
 
-rollup-pluginutils@^2.8.2:
+rollup-pluginutils@2, rollup-pluginutils@^2.8.2:
   version "2.8.2"
   resolved "https://registry.yarnpkg.com/rollup-pluginutils/-/rollup-pluginutils-2.8.2.tgz#72f2af0748b592364dbd3389e600e5a9444a351e"
   integrity sha512-EEp9NhnUkwY8aif6bxgovPHMoMoNr2FulJziTndpt5H9RdwC47GSGuII9XxpSdzVGM0GWrNPHV6ie1LTNJPaLQ==

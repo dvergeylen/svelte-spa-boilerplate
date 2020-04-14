@@ -17,8 +17,10 @@
     "svelte": "^3.0.0"
   },
   "dependencies": {
+    "bulma": "^0.8.2",
     "gh-pages": "^2.2.0",
     "node-sass": "^4.13.1",
+    "rollup-plugin-scss": "^2.4.0",
     "sass": "^1.26.3",
     "sirv-cli": "^0.4.4",
     "svelte-preprocess": "^3.7.1"
