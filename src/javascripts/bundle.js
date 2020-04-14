@@ -6,3 +6,4 @@
 /* SCSS */
 /* These will be put in bundle.css by rollup */
 import '../stylesheets/bulma.scss';
+import '../stylesheets/fontawesome.scss';
