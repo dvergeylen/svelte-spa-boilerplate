@@ -4,16 +4,36 @@
   <meta charset='utf-8'>
   <meta name='viewport' content='width=device-width,initial-scale=1'>
 
-  <title>Svelte app</title>
+  <title>Place2Be</title>
 
   <link rel='icon' type='image/png' href='/favicon.png'>
-  <link rel='stylesheet' href='/build/bundle.css'>
-  <link rel='stylesheet' href='/build/main.css'>
 
-  <script defer src='/build/bundle.js'></script>
-  <script defer src='/build/main.js'></script>
+  <script defer src="/build/bundle.js"></script>
+  <link rel='stylesheet' href='/build/bundle.css'>
+
+  <script defer src="/build/static.js"></script>
+  <link rel='stylesheet' href='/build/static.css'>
 </head>
 
 <body>
+  <main>
+    <section class="section">
+      <div class='columns is-5'>
+        <div class='column is-6 has-hvcentered-content'>
+          <div class='has-text-centered-mobile'>
+            <h1 class='title is-1'>Gamified<br />Loyalty Programs</h1>
+            <h1 class='subtitle is-3 is-italic'>for fun & profit 😊</h1>
+            <div class='columns'>
+              <div id="signin-container" class="column">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class='column is-6 is-hidden-mobile has-hvcentered-content'>
+          <p> an Image should come here !</p>
+        </div>
+      </div>
+    </section>
+  </main>
 </body>
 </html>

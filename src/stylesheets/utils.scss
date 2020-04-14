@@ -1,0 +1,32 @@
+/* Div containing vcentered div(s) (+ text) */
+.has-vcentered-content {
+  display: flex;
+  align-items: center;
+}
+
+/* Div containing h + v centered div(s) (+ text) */
+.has-hvcentered-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Div containing h centered text only*/
+.has-hcentered-text {
+  text-align:center;
+}
+
+/* Div containing v centered text only */
+.has-vcentered-text {
+  display:flex;
+  align-items:center;
+}
+
+/* Div containing h + v centered text */
+/* → use .has-div-hvcentered */
+
+/* h centered div (itself) */
+.is-hcentered {
+  margin-left:auto;
+  margin-right:auto;
+}
