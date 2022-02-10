@@ -27,7 +27,7 @@
     "eslint-plugin-import": "^2.20.2",
     "eslint-plugin-promise": "^4.2.1",
     "gh-pages": "^2.2.0",
-    "node-sass": "^4.13.1",
+    "node-sass": "^7.0.0",
     "rollup-plugin-scss": "^2.4.0",
     "sass": "^1.26.3",
     "sirv-cli": "^0.4.4",
